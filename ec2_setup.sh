@@ -14,8 +14,8 @@ chmod 400 mxnetworkshop.pem
 # This is the AMI for us-west-2
 AMI=ami-f1d51489
 
-TYPE=c4.xlarge
-#TYPE=p2.xlarge
+#TYPE=c4.xlarge
+TYPE=p2.xlarge
 
 # Create a new instance using the Deep Learning AMI
 aws ec2 run-instances \
